@@ -4,6 +4,6 @@ stage: fetch
 modules:
   flopr:   {source_files: [Resettable_FF/flopr.sv]}
   flopenr: {source_files: [Resettable_En_FF/flopenr.sv]}
-  adder:   {source_files: [Adder/adder.sv]}
+  adder:   {source_files: [Adder/rtl.sv]}
   mux2:    {source_files: [2to1_Multiplexer/mux2.sv]}
   imem:    {source_files: [IMEM/imem.sv]}
